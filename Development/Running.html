@@ -6,7 +6,7 @@
         <title>Running the Components · SciCat Documentation</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="HonKit 3.6.20">
+        <meta name="generator" content="HonKit 3.7.5">
         
         
         
@@ -20,7 +20,7 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
                 
@@ -60,7 +60,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Environment.html" />
+    <link rel="next" href="Configuration.html" />
     
     
     <link rel="prev" href="Data_Model.html" />
@@ -326,7 +326,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.4" data-path="../Operator/Sites/">
+        <li class="chapter " data-level="1.3.4" data-path="../Operator/Step_by_Step_Setup_Zip_Service.html">
+            
+                <a href="../Operator/Step_by_Step_Setup_Zip_Service.html">
+            
+                    
+                    Deploy Zip Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Operator/Sites/">
             
                 <a href="../Operator/Sites/">
             
@@ -340,7 +353,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.4.1" data-path="../Operator/Sites/ESS.html">
+        <li class="chapter " data-level="1.3.5.1" data-path="../Operator/Sites/ESS.html">
             
                 <a href="../Operator/Sites/ESS.html">
             
@@ -353,7 +366,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.4.2" data-path="../Operator/Sites/MaxIV.html">
+        <li class="chapter " data-level="1.3.5.2" data-path="../Operator/Sites/MaxIV.html">
             
                 <a href="../Operator/Sites/MaxIV.html">
             
@@ -366,7 +379,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.4.3" data-path="../Operator/Sites/PSI.html">
+        <li class="chapter " data-level="1.3.5.3" data-path="../Operator/Sites/PSI.html">
             
                 <a href="../Operator/Sites/PSI.html">
             
@@ -500,12 +513,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="Environment.html">
+        <li class="chapter " data-level="1.5.4" data-path="Configuration.html">
             
-                <a href="Environment.html">
+                <a href="Configuration.html">
             
                     
-                    Configuration files
+                    Configuration
             
                 </a>
             
@@ -513,7 +526,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.5" data-path="Login.html">
+        <li class="chapter " data-level="1.5.5" data-path="Theming.html">
+            
+                <a href="Theming.html">
+            
+                    
+                    Theming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="Login.html">
             
                 <a href="Login.html">
             
@@ -526,7 +552,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.6" data-path="Ngrx.html">
+        <li class="chapter " data-level="1.5.7" data-path="OIDC.html">
+            
+                <a href="OIDC.html">
+            
+                    
+                    OIDC Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="Ngrx.html">
             
                 <a href="Ngrx.html">
             
@@ -539,9 +578,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.7" data-path="Testing_catamel.html">
+        <li class="chapter " data-level="1.5.9" data-path="Testing_backend.html">
             
-                <a href="Testing_catamel.html">
+                <a href="Testing_backend.html">
             
                     
                     Testing Backend
@@ -552,7 +591,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.8" data-path="Testing.html">
+        <li class="chapter " data-level="1.5.10" data-path="Testing.html">
             
                 <a href="Testing.html">
             
@@ -565,7 +604,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.9" data-path="Contributing.html">
+        <li class="chapter " data-level="1.5.11" data-path="Contributing.html">
             
                 <a href="Contributing.html">
             
@@ -578,7 +617,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.10" data-path="Documentation.html">
+        <li class="chapter " data-level="1.5.12" data-path="Documentation.html">
             
                 <a href="Documentation.html">
             
@@ -591,7 +630,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.11" data-path="Development_Methods.html">
+        <li class="chapter " data-level="1.5.13" data-path="Development_Methods.html">
             
                 <a href="Development_Methods.html">
             
@@ -668,12 +707,12 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="running-locally">Running locally</h1>
-<pre><code>git clone https://github.com/SciCatProject/catamel.git 
-cd catamel
+<pre><code>git clone https://github.com/SciCatProject/backend.git 
+cd backend
 npm install
 npm start
-</code></pre><pre><code>git clone https://github.com/SciCatProject/catanie.git 
-cd catanie
+</code></pre><pre><code>git clone https://github.com/SciCatProject/frontend.git 
+cd frontend
 npm install
 npx ng serve
 </code></pre><p>For convenience, this has been added to the <code>package.json</code> so you can run <code>npm start</code> as an alias.</p>
@@ -682,7 +721,7 @@ npx ng serve
 <p>The containers in our repos are based on alpine linux to ensure a minimal size with almost nothing but the required packages. Most standard *nix commands are available.</p>
 <p>The recommend way is to use <a href="https://github.com/SciCatProject/scicatlive#readme" target="_blank">scicatlive</a> . This does all for you automatically.</p>
 <p>If you want to do things manually instead:</p>
-<p><code>git clone https://github.com/SciCatProject/catanie.git &amp;&amp; cd catanie</code></p>
+<p><code>git clone https://github.com/SciCatProject/frontend.git &amp;&amp; cd frontend</code></p>
 <p><code>docker build -t &lt;tag&gt; .</code></p>
 <p><code>docker run &lt;tag&gt;</code></p>
 <p>You should see the container begin and print out the URL, this is retrieved dynamically based on the IP of the container. Changing it to localhost or 0.0.0.0 <strong>will</strong> break it.</p>
@@ -720,7 +759,7 @@ npx ng serve
                 </a>
                 
                 
-                <a href="Environment.html" class="navigation navigation-next " aria-label="Next page: Configuration files">
+                <a href="Configuration.html" class="navigation navigation-next " aria-label="Next page: Configuration">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -731,7 +770,7 @@ npx ng serve
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Running the Components","level":"1.5.3","depth":2,"next":{"title":"Configuration files","level":"1.5.4","depth":2,"path":"Development/Environment.md","ref":"Development/Environment.md","articles":[]},"previous":{"title":"An Introduction to the Data Model","level":"1.5.2","depth":2,"path":"Development/Data_Model.md","ref":"Development/Data_Model.md","articles":[]},"dir":"ltr"},"config":{"plugins":["chapter-fold"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SciCat Documentation","gitbook":"*"},"file":{"path":"Development/Running.md","mtime":"2021-04-14T07:47:27.383Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-04-14T07:47:38.809Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Running the Components","level":"1.5.3","depth":2,"next":{"title":"Configuration","level":"1.5.4","depth":2,"path":"Development/Configuration.md","ref":"Development/Configuration.md","articles":[]},"previous":{"title":"An Introduction to the Data Model","level":"1.5.2","depth":2,"path":"Development/Data_Model.md","ref":"Development/Data_Model.md","articles":[]},"dir":"ltr"},"config":{"plugins":["chapter-fold"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SciCat Documentation","gitbook":"*"},"file":{"path":"Development/Running.md","mtime":"2023-02-08T11:12:03.070Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2023-02-08T11:12:13.208Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
